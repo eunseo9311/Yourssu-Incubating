@@ -20,6 +20,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func addedButton(_ sender: Any) {
+        print("test")
     }
 }
 
