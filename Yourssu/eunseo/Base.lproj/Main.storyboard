@@ -94,9 +94,9 @@
                         <outlet property="abstructButton" destination="ZPF-pf-WzR" id="UUc-Id-pMK"/>
                         <outlet property="addButton" destination="slE-Us-sB1" id="h52-bh-leg"/>
                         <outlet property="divideButton" destination="i4B-Vo-JQm" id="vKD-QL-kxy"/>
-                        <outlet property="info" destination="xsx-jW-Uo3" id="nP5-BP-5d9"/>
-                        <outlet property="inputFirst" destination="fAF-AJ-MiE" id="fPh-iL-Ogr"/>
-                        <outlet property="inputSecond" destination="mKJ-WJ-hOI" id="EOq-kL-MuM"/>
+                        <outlet property="infoLabel" destination="xsx-jW-Uo3" id="nP5-BP-5d9"/>
+                        <outlet property="inputFirstTextField" destination="fAF-AJ-MiE" id="fPh-iL-Ogr"/>
+                        <outlet property="inputSecondTextField" destination="mKJ-WJ-hOI" id="EOq-kL-MuM"/>
                         <outlet property="multiplyButton" destination="Hwx-LO-eFW" id="KtC-tC-Tem"/>
                     </connections>
                 </viewController>
