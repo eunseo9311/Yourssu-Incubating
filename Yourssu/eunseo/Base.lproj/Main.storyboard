@@ -36,7 +36,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="더하기"/>
                                         <connections>
-                                            <action selector="addedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GZP-0r-1Aa"/>
+                                            <action selector="addedButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Ck-fd-UBf"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -48,7 +48,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="빼기"/>
                                 <connections>
-                                    <action selector="substractButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="85H-YU-9BO"/>
+                                    <action selector="substractButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8xL-wV-daD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hwx-LO-eFW">
@@ -57,7 +57,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="곱하기"/>
                                 <connections>
-                                    <action selector="multipeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V5J-CP-vKg"/>
+                                    <action selector="multipeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iVS-8d-GfU"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="버튼을 눌러주세요!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsx-jW-Uo3">
@@ -72,7 +72,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="나누기"/>
                                 <connections>
-                                    <action selector="divideButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LON-Vt-91K"/>
+                                    <action selector="divideButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5vS-9a-plC"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         infoLabel.text = "버튼을 눌러주세요!"
     }
 
-    @IBAction func divideButton(_ sender: Any) {
+    @IBAction func divideButtonTapped(_ sender: Any) {
         guard let a = Double(inputFirstTextField.text ?? ""), let b = Double(inputSecondTextField.text ?? "") else {
             infoLabel.text = "값을 먼저 입력해주세요"
             return
@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         infoLabel.text = "\(result)"
     }
     
-    @IBAction func multipeButton(_ sender: Any) {
+    @IBAction func multipeButtonTapped(_ sender: Any) {
         guard let a = Double(inputFirstTextField.text  ?? ""), let b = Double(inputSecondTextField.text ?? "") else {
             infoLabel.text = "값을 먼저 입력해주세요"
             return
@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         infoLabel.text = "\(result)"
     }
     
-    @IBAction func substractButton(_ sender: Any) {
+    @IBAction func substractButtonTapped(_ sender: Any) {
         guard let a = Double(inputFirstTextField.text ?? ""), let b = Double(inputSecondTextField.text ?? "") else {
             infoLabel.text = "값을 먼저 입력해주세요"
             return
@@ -56,7 +56,7 @@ class ViewController: UIViewController {
         infoLabel.text = "\(result)"
     }
     
-    @IBAction func addedButton(_ sender: Any) {
+    @IBAction func addedButtonTapped(_ sender: Any) {
         guard let a = Double(inputFirstTextField.text ?? ""), let b = Double(inputSecondTextField.text ?? "") else {
             infoLabel.text = "값을 먼저 입력해주세요"
             return
